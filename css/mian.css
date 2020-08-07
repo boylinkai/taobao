@@ -902,6 +902,10 @@ ul{
     margin-right: 5px;
     vertical-align: middle;
 }
+#yhh .inner li img{
+    height: 180px;
+    width: 180px;
+}
 #yhh .inner h3 span{
     margin-left: 6px;
     color:#999;
@@ -966,4 +970,9 @@ ul{
     padding: 10px 8px 0;
     text-align: center;
     color: #000;
+}
+.end{
+    height: 50px;
+    width: 1190px;
+    
 }

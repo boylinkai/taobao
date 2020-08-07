@@ -1,0 +1,255 @@
+*{
+	margin:0;
+	padding:0;
+}
+.txp_header_big{
+	width:100%;
+	height:74px;
+	box-shadow: 0 5px 8px rgba(0,0,0,.15);	
+}
+.txp_header{
+	width:1200px;
+	height:64px;
+	line-height:64px;
+	margin:0 120px 10px;
+	padding:0 24px;
+}
+.txp_header img{
+	width:114px;
+	height:33.05px;
+	margin-top: 13px;
+}
+.txp_header_logo{
+	display:inline-block;
+}
+.txp_header_menu{
+	float:right;
+	margin-right: 25px;
+}
+.txp_header_menu_word{
+	display:inline-block;
+	padding:0 20px;
+	font-size: 14px;
+	color:#333;
+	cursor:pointer;
+}
+.pic{
+	width:100%;
+	height: 100vh;
+	background-image:url(https://img.alicdn.com/tfs/TB1X9oNDbj1gK0jSZFOXXc7GpXa-1920-745.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: scroll;
+	background-position: 50%;
+	position: relative;
+}
+.QRcode{
+	bottom: 20%;
+	left: 60%;
+	position:absolute;
+} 
+.about{
+	width:100%;
+	height:790px;
+}
+.about_middle{
+	width:1200px;
+	height:662px;
+	margin:0 120px;
+	padding:64px 24px;
+}
+.about_middle_title{
+	text-align: center;
+}
+.about_middle_pic{
+	width:1107px;
+	height:535px;
+	margin:auto;
+}
+.about_middle_pic img{
+	float:left;
+	margin:46px;
+}
+.join{
+	width:100%;
+	height:872px;
+	background-color:#f10c4d;
+	padding:64px 0;
+}
+.join_title{
+	width:100%;
+	height:196px;
+	text-align: center; 
+	padding: 0 0 48px;
+}
+.join_title_pic img{
+	margin: 0 auto 48px;	
+}
+.join_title_bottom{
+	width:1134px;
+	height:630px;
+	margin:0 auto;
+	padding:20px 0;
+}
+.join_title_bottom>div{
+	float:left;
+	width:378px;
+	height:566px;
+	text-align:center;
+}
+.join_title_top .join_title_top_img{
+	padding:60px 0 0;
+}
+
+/* 优势 */
+.adv{
+	width:100%;
+	height:1123px;
+}
+.adv_m{
+	width:1200px;
+	height:1123px;
+	margin:0 120px;
+	padding:64px 24px;
+	box-sizing: border-box;
+}
+.adv_m_top{
+	width:1152px;
+	height:439px;
+	margin:0 0 48px;
+}
+.adv_m_top>div:not(:first-child){
+	text-align:center;
+	margin: 60px 0 0;
+}
+.adv_m_top>div:first-child{
+	text-align:center;
+}
+.adv_m_bottom{
+	width:1148px;
+	height:508px;
+	padding:20px 0;
+}
+.adv_m_bottom>div{
+	float:left;
+	text-align:center;
+	width:287px;
+	height:444px;
+}
+
+/* 保障 */
+.safe{
+	width:100%;
+	height:776px;
+	background-color:#efefef;
+	padding:64px 24px;
+	box-sizing: border-box;
+}
+.safe_top{
+	width:1392px;
+	height:303px;
+}
+.safe_top>div:first-child{
+	width:1392;
+	height:120px;
+	text-align:center;
+}
+.safe_top>div:last-child{
+	width:1392px;
+	height:35px;
+	margin:60px 0 0;
+	text-align:center;
+}
+.safe_bottom>div{
+	float:left;
+	width:212.84px;
+	height:321px;
+	text-align:center;
+	margin:0 0 24px;
+	padding: 0 60.6px;	
+}
+
+/* 故事 */
+.story{
+	width:100%;
+	height:876px;
+}
+.story_top{
+	width:1200px;
+	height:676px;
+	margin:0 120px;
+	padding:64px 24px;
+}
+.story_top>div:first-child{
+	text-align:center;
+	width:1152px;
+	height:71px;
+	margin:0 0 48px 0;
+}
+.story_top_pic{
+	width:1252px;
+	height:429px;
+	margin:0 -50px;
+	padding:20px 0;
+}
+.story_top_pic div{
+	width:317.328px;
+	height:365px;
+	margin:0 0 24px;
+	padding:0 50px;
+	float:left;
+}
+.story_top_pic img{
+	width:394px;
+	height:336.08px;
+}
+.story_top_bottom{
+	width:1146px;
+	height:77.59px;
+	margin-top: 40px;;
+}
+.story_top_bottom>div{
+	float: left;
+}
+.pic_right{
+	margin-left: 480px;
+}
+.pic_left>div:first-child{
+	margin-left: 45px;
+}
+.down{
+	margin:10px 0 0;
+}
+/* 合作 */
+.cooperation{
+	width:100%;
+	height:961.03px;
+	background-color:#f10c4d;
+}
+.co_top{
+	width:990px;
+	height:167.58px;
+	margin-left: 150px;
+}
+.cooperation_big{
+	width:1200px;
+	height:960.03px;
+	margin:0 120px;
+	padding:64px 0 80px;
+	box-sizing: border-box;
+}
+
+.logo{
+	width:1200px;
+	height:637px;
+	padding:0 32px;
+}
+.logo>div{
+	text-align:center;
+	padding:50px 0;
+}
+.logo>div:last-child{
+	width:1136px;
+	height:124px;
+	margin:-20px 0 0;
+}
