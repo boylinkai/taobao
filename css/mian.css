@@ -917,7 +917,53 @@ ul{
     float: left;
 }
 #yhh .inner ul li a{
+    display: block;
+    float: left;
+    width: 180px;
+    overflow: hidden;
+    margin: 0 14px 17px 0;
+}
+#yhh .inner ul li a h4{
+    margin-top: 5px;
+    font-size: 16px;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    font-weight: normal;
+}
+#yhh .inner ul li a p{
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    overflow: hidden;
+    
+}
+#yhh .inner ul li a span{
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #35b1ff;
+    font-style:normal;
+    margin-top: 14px;
+}
+#yhh .inner ul li a:hover h4{
+    color:#f40; 
+}
+#buoy{
+    height: 300px;
+    width: 50px;
+    background-color: #fff;
+    position: fixed;
+    right: 100px;
+    top: 352px;
+    border-radius: 10px;
+}
+#buoy a{
     display: inline-block;
-    font-size: 12px;
-    text-align: left;
+    height: 40px;
+    width: 34px;
+    padding: 10px 8px 0;
+    text-align: center;
+    color: #000;
 }
