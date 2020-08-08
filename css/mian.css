@@ -974,5 +974,32 @@ ul{
 .end{
     height: 50px;
     width: 1190px;
-    
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 18px;
+    color: #ccccd0  ;
+    position: relative;
+}
+.end span{
+    position: absolute;
+    left: 50%;
+    margin-left: -17px;
+}
+.end span::before{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 60px;
+    background-color: #e6e6e6;;
+    top: 25px;
+    left: -80px;
+}
+.end span::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 60px;
+    background-color: #e6e6e6;;
+    top: 25px;
+    left: 60px;
 }
