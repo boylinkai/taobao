@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* CSS Document */
+
+.chl-reg{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.header{
+    height: 88px;
+    width: 100%;
+}
+.logo {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.logo-big img{
+    margin-top: 18px;
+    margin-left: -8px;
+}
+.logo-small{
+    position: absolute;
+    right: 0px;
+    top:36px;
+    text-decoration: none;
+    color: #666;
+    font-size: 12px;
+}
+.logo-small:hover{
+    color: #f40;
+}
+.content{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.login-newbg {
+    position: absolute;
+    z-index: 1;
+    margin-top: o;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    height: 600px;
+}
+
+.login-adlink a{
+    position: absolute;
+    width: 630px;
+    height: 440px;
+    left: 192px;
+    top: 80px;
+}
+.login-box{
+    position: absolute;
+    top: 120px;
+    right: 170px;
+    width: 350px;
+    height: 351px;
+    background-color: hsla(0,0%,100%,.9);
+    z-index: 2;
+}
+.login-box-big{
+    margin-bottom: 0;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+}
+.login-box-tab{
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 4px;
+}
+.login-box-tab >a:nth-child(1){
+    border-bottom: #3c3c3c 2px solid;
+    padding-bottom: 2px;
+}
+.login-box-tab a{
+    height: 18px;
+    line-height: 5px;
+    font-size: 16px;
+    color: #3c3c3c;
+    margin: 9px 10px 0 0;
+    font-weight: 700;
+    left: 28px;
+    top: 32px;
+    position: relative;
+    text-decoration: none;
+}
+.login-box-form{
+    width: 287px;
+    height: 240px;
+    margin: 0;
+    padding: 0;
+    right: 32px;
+    top: 72px;
+    position: absolute;
+}
+.login-box-form-first{
+    display: flex;
+    margin-left: 0px;
+    margin-top: 7px;
+}
+.text-first{
+    border: 0px ;
+    width: 243px;
+    height: 40px;
+}
+
+.login-box-form-second{
+    display: flex;
+    margin-top:20px;   
+}
+.text-second{
+    border: 0px ;
+    width: 243px;
+    height: 40px;
+}
+
+.fm-btn{
+    margin: 0;
+    padding: 0%;
+}
+.fm-button{
+    position: absolute;
+    width: 100%;
+    top:134px;
+    height: 42px;
+    background-color: #f40;
+    border: 1px solid #ff9000;
+    border-radius: 3px;
+    font-size: 16px;
+    color: white;
+    line-height: 42px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.fm-button:hover{
+    background-color: #f52b00 ;
+}
+.login-blocks{
+    margin-top:70px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.login-blocks a{
+    text-decoration: none;
+    color: #6c6c6c;
+}
+.login-links{
+    margin-top: 14px;
+    margin-left: 108px ;
+    font-size: 12px;
+    word-spacing: 6px;
+}
+.login-links a{
+    text-decoration: none;
+    color: #6c6c6c;
+}
+
+.footer{
+    position: relative;
+    margin: 60px auto 0;
+    padding: 7px 0 9px;
+    border-top: 1px solid #ddd;
+    width: 1200px;
+    height: 248px;
+    
+}
+.footer b{
+    color: #ddd;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.footer-hd{
+    margin: 0px;
+    padding: 0;
+}
+.footer .footer-hd p{
+    margin-bottom: 8px;
+    line-height: 27px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    overflow: hidden;
+    margin-top: 0px;
+    word-spacing: 5px;
+}
+.footer .footer-hd p a{
+    color: #3c3c3c;
+}
+.footer-bd{
+    margin: 0px;
+    padding: 0;
+    margin-top: -10px;
+}
+.footer .footer-bd p{
+    margin-left: 6px;
+    padding-bottom: 8px;
+    overflow: hidden;
+   
+}
+.footer .footer-bd em{
+    margin-left: 30px;
+    font-size: 12px;
+    color: #9c9c9c;
+}
+.footer .footer-bd p a{
+    color: #3c3c3c;
+}
+.footer .footer-bd span{
+    color:#9c9c9c;
+    font-size: 12px;
+}
+.footer-first{
+    word-spacing: 11px; 
+}
+.footer-second{
+    margin-top: -18px;
+    word-spacing: 6px;
+}
+.footer-third{
+    margin-top: -18px;
+    word-spacing: 2px;
+}
+.footer-last{
+    margin-top: -18px;
+    word-spacing: 5px;
+}
+.footer-ft{
+    margin-top: -10px;
+    word-spacing: 10px;
+}
