@@ -169,3 +169,62 @@ html{
 	text-align: center;
 	font-size: 0.2rem;
 }
+.home_qian{
+	display: inline-flex;
+	font-size: 0.2rem;
+	align-items: center;
+}
+.home_qian img{
+	width: 1rem;
+}
+.home_qian div{
+	padding: 0.3rem;
+}
+.home_xiazai{
+	display: inline-flex;
+	align-items: center;
+}
+.home_xiazai div{
+	padding: 0.3rem;
+}
+.home_xiazai div:first-child img{
+	width: 1rem;
+}
+.home_xiazai div:nth-child(2){
+	display: inline-flex;
+	flex-wrap: wrap;
+	width: 2.5rem;
+}
+.home_xiazai div:nth-child(2) > a{
+	font-size: 0.3rem;
+}
+.home_xiazai div:nth-child(2) > span{
+	font-size: 0.2rem;
+}
+.home_xiazai div:nth-child(3){
+	width: 1rem;
+	height: 0.1rem;
+	line-height: 0.1rem;
+	border-radius: 0.5rem;
+	font-size: 0.2rem;
+	background-color: orange;
+	text-align: center;
+}
+.home_fuli{
+	width: 7.2rem;
+	display: flex;
+	justify-content: center;
+}
+.home_fuli > div{
+	width: 2rem;
+	padding: 0.2rem;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.home_fuli span{
+	font-size: 0.4rem;
+}
+.home_fuli a{
+	font-size: 0.2rem;
+}
