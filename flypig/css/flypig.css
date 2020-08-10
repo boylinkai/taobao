@@ -1,0 +1,135 @@
+body{
+	margin: 0;
+}
+html{
+	font-size: 100px;
+}
+.top_1{
+	background-color: orange;
+	display: flex;
+	width: 7.2rem;
+	height: 1rem;
+}
+.top_img_1{
+	display: flex;
+	width: 1rem;
+	height: 0.42rem;
+	margin-top: 0rem;
+	margin-left: 3.1rem;
+}
+.top_img_1 img{
+	width: 100%;
+}
+.top_img_2{
+	display: flex;
+	width: 0.5rem;
+	height: 0.5rem;
+	margin-top: 0rem;
+	margin-left: 2.6rem;
+}
+.top_img_2 img{
+	width: 100%;
+}
+.top_2{
+	display: flex;
+	background-color: orange;
+	width: 7.2rem;
+	height: 1rem;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+}
+.top_2_div{
+	display: flex;
+	height: 0.8rem;
+	width: 6.2rem;
+	background-color: aliceblue;
+	border-radius: 0.4rem 0 0.4rem 0.4rem;
+}
+.top_3{
+	display: flex;
+	width: 7.2rem;
+	background-color:orange;
+	height: 1rem;
+	justify-content: center;
+	align-items: center;
+}
+.top_3_div{
+	display:flex;
+	flex-wrap: nowrap;
+	height: 0.4rem;
+	width: 6.2rem;
+	text-align: center;
+}
+.top_3_div div{
+	display: flex;
+	height: 0.4rem;
+	font-size: 0.2rem;
+	padding: 0 0.1rem;
+	color: #F0F8FF;
+	line-height: 0.4rem;
+}
+.top_3_div div:not(.top_3_div_1){
+	border: 0.01rem solid yellowgreen;
+	background-color: greenyellow;
+	border-radius: 0.4rem;
+}
+.top_img{
+	display: inline-flex;
+	flex-wrap: nowrap;
+	width: 7.2rem;
+	overflow: hidden;
+}
+.top_img_show{
+	display: inline-flex;
+	flex-wrap: nowrap;
+	width: 7.2rem;
+	animation: xu 20s linear infinite;
+}
+.top_img_show img{
+	width: 7.2rem;
+}
+@keyframes xu{
+	0%{
+		transform: translateX(0rem);
+	}
+	10%{
+		transform: translateX(0rem);
+	}
+	15%{
+		transform: translateX(-100%);
+	}
+	25%{
+		transform: translateX(-100%);
+	}
+	30%{
+		transform: translateX(-200%);
+	}
+	40%{
+		transform: translateX(-200%);
+	}
+	45%{
+		transform: translateX(-300%);
+	}
+	55%{
+		transform: translateX(-300%);
+	}
+    60%{
+		transform: translateX(-400%);
+	}
+	70%{
+		transform: translateX(-400%);
+	}
+	75%{
+		transform: translateX(-500%);
+	}
+	85%{
+		transform: translateX(-500%);
+	}
+	90%{
+		transform: translateX(-600%);
+	}
+	100%{
+		transform: translateX(-600%);
+	}
+}

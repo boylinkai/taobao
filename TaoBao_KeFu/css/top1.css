@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.eot');
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+        url('iconfont.woff2') format('woff2'),
+        url('iconfont.woff') format('woff'),
+        url('iconfont.ttf') format('truetype'),
+        url('iconfont.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+body,ul,h1,h2,h3,h4,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F4F4F4;
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #6C6C6C;
+}
+ul{
+    list-style: none;
+    font-size: 0;
+}
+.clearfix{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* 顶部导航 */
+#topNav{
+    height: 35px;
+}
+#topNav .nav{
+    height: 35px;
+    width: 1190px;
+    margin: 0 auto;
+}
+#topNav .leftNav ul li{
+    font-size: 12px;
+    padding: 0 6px;
+    line-height: 35px;
+}
+#topNav .leftNav ul li a{
+    font-size: 12px;
+    padding: 0 0 0 7px;
+}
+#topNav .leftNav ul li .register{
+    color: #F22E00;
+}
+#topNav .leftNav ul li a:hover{
+    color: #f40;
+}
+#topNav .leftNav ul area{
+    position: relative;
+}
+#topNav span{
+    font-size: 4px;
+    color: #B0B0B0;
+    padding: 0 0 0 2PX;
+}
+#topNav .leftNav ul .area .areamore{
+    height: 0;
+    position: absolute;
+    margin-top: -2px;
+    overflow: hidden;
+    left: 173px;
+}
+#topNav .leftNav ul .area .areamore li{
+    height: 29px;
+    width: 242px;
+    padding: 0 0 0 8px ;
+    background-color: #FFF; 
+    cursor: pointer;  
+}
+#topNav .leftNav ul .area .areamore li:hover{
+    background-color: #F4F4F4;
+}
+#topNav .leftNav ul .area:hover{
+    background-color: #FFF;
+}
+#topNav .leftNav ul .area:hover .areamore{
+    height: 280px;
+    overflow-y: auto;
+    z-index: 30;
+}
+#topNav .rightNav {
+    display: inline-block;
+}
+#topNav .rightNav ul li{
+    float: left;
+    line-height: 35px;
+}
+#topNav .rightNav ul li{
+    height: 34px;
+    text-align: center;
+    font-size: 12px;
+    color: #ddd; 
+    padding:0 5px;
+}
+#topNav .rightNav ul .separator{
+    padding: 0 5px;
+    width: 5px;
+}
+#topNav .rightNav ul li a{
+    font-size: 12px;
+    padding: 0 6px;
+    height: 35px;
+    width: 79px;
+    line-height: 35px;
+}
+#topNav .rightNav ul li i{
+    color: #f50;
+    font-size: 12px;
+    margin: 0 1px;
+}
+#topNav .rightNav ul li a:hover{
+    color: #f40;
+}
+#topNav .rightNav ul li a:hover span{
+    color: #f50;
+}
+#topNav .rightNav ul .mytb{
+    position: relative;
+}
+#topNav .rightNav ul .mytb:hover{
+    background-color: #FFF;
+}
+#topNav .rightNav ul div{
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    background-color: #FFF;
+    margin-top: -2px;
+    left: 0;
+	z-index: 99;
+}
+#topNav .rightNav ul div a{
+    display: block;
+    padding: 0 0 0 5px;
+    text-align: left;
+}
+#topNav .rightNav ul .mytb:hover div{
+    display:block;
+}
+#topNav .rightNav ul div a:hover{
+    color: #6c6c6c;
+    background-color: #F4F4F4;
+} 
+#topNav .rightNav ul .shopcar{
+    position: relative;
+}
+#topNav .rightNav ul .shopcar div{
+    position: absolute;
+    height: 50px;
+    width: 300px;
+    color: #000;
+    line-height: 50px;
+}
+#topNav .rightNav ul .shopcar:hover{
+    background-color: #FFF;
+}
+#topNav .rightNav ul .shopcar:hover div{
+    display:block;
+}
+#topNav .rightNav ul .collect{
+    position: relative;
+}
+#topNav .rightNav ul .collect div{
+    position: absolute;
+}
+#topNav .rightNav ul .collect:hover{
+    background-color: #FFF;
+}
+#topNav .rightNav ul .collect:hover div{
+    display:block;
+}
+#topNav .rightNav ul .seller{
+    position: relative;
+}
+#topNav .rightNav ul .seller div{
+    position: absolute;
+}
+#topNav .rightNav ul .seller:hover{
+    background-color: #FFF;
+}
+#topNav .rightNav ul .seller:hover div{
+    display:block;
+}
+#topNav .rightNav ul .service{
+    position: relative;
+}
+#topNav .rightNav ul .service div{
+    position: absolute;
+}
+#topNav .rightNav ul .service:hover{
+    background-color: #FFF;
+}
+#topNav .rightNav ul .service:hover div{
+    display:block;
+}
+#topNav .rightNav ul .sitenav{
+    position: relative;
+}
+#topNav .rightNav ul .sitenav div{
+    width: 1190px;
+    left: -1094px !important;
+    position: absolute;
+    margin-top: -2px;
+    box-sizing: border-box;
+}
+#topNav .rightNav ul .sitenav:hover{
+    background-color: #FFF;
+}
+#topNav .rightNav ul .sitenav:hover div{
+    display:block;
+    z-index: 30;
+}
+#topNav .rightNav ul .sitenav div ul li h4{
+    float: left;
+    margin: 0 0 20px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+#topNav .rightNav ul .sitenav div ul{
+    width:290px ;
+    float: left;
+}
+#topNav .rightNav ul .sitenav div ul .title1{
+    display: block;
+    width:300px ;
+    color: #f50;
+}
+#topNav .rightNav ul .sitenav div ul .title2{
+    display: block;
+    width:290px ;
+    color: #9fb838;
+}
+#topNav .rightNav ul .sitenav div ul .title3{
+    display: block;
+    width:290px ;
+    color: #d75696;
+}
+#topNav .rightNav ul .sitenav div ul .title4{
+    display: block;
+    width:300px ;
+    color: #2e9fdb;
+}
+#topNav .rightNav ul .sitenav div ul li{
+    width: 20%;   
+    /* vertical-align: middle; */
+    padding: 10px 0 0 0 ;
+}
+#topNav .rightNav ul .sitenav div ul li a{
+    float: left;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 2px;
+    padding: 0 4px;
+    text-align: center;
+    color: #000;
+}
+#topNav .rightNav ul .sitenav div ul li a:hover{
+    background-color: #f40;
+    color: #FFF;
+    border-radius: 5px;
+}

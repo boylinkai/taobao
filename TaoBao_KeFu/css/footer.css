@@ -1,0 +1,74 @@
+.footer{
+    position: relative;
+    margin: 60px auto 0;
+    padding: 7px 0 9px;
+    border-top: 1px solid #ddd;
+    width: 1200px;
+    height: 248px;
+    
+}
+.footer b{
+    color: #ddd;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.footer-hd{
+    margin: 0px;
+    padding: 0;
+}
+.footer .footer-hd p{
+    margin-bottom: 8px;
+    line-height: 27px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    overflow: hidden;
+    margin-top: 0px;
+    word-spacing: 5px;
+}
+.footer .footer-hd p a{
+    color: #3c3c3c;
+}
+.footer-bd{
+    margin: 0px;
+    padding: 0;
+    margin-top: -10px;
+}
+.footer .footer-bd p{
+    margin-left: 6px;
+    padding-bottom: 8px;
+    overflow: hidden;
+   
+}
+.footer .footer-bd em{
+    margin-left: 30px;
+    font-size: 12px;
+    color: #9c9c9c;
+}
+.footer .footer-bd p a{
+    color: #3c3c3c;
+}
+.footer .footer-bd span{
+    color:#9c9c9c;
+    font-size: 12px;
+}
+.footer-first{
+    word-spacing: 11px; 
+}
+.footer-second{
+    margin-top: -18px;
+    word-spacing: 6px;
+}
+.footer-third{
+    margin-top: -18px;
+    word-spacing: 2px;
+}
+.footer-last{
+    margin-top: -18px;
+    word-spacing: 5px;
+}
+.footer-ft{
+    margin-top: -10px;
+    word-spacing: 10px;
+}

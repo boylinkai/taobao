@@ -1,0 +1,68 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+div {
+    display: block;
+}
+.zhong{ 
+	width: 100%;
+    background: url(../img/背景.jpg) 50% no-repeat;
+    height: 563px;
+    position: relative;
+    margin: auto;
+}
+.zhong_top{
+	height: 48px;
+}
+.taobaowang_logo{
+	
+	background: url(../img/淘宝网.png) no-repeat;
+	padding: 9px;
+    width: 130px;
+    height: 33px;
+    display: inline-block;
+	position: relative;
+	left: -540px;
+
+}
+.border{	
+	display: inline-block;
+    float: left;
+    width: 1px;
+    height: 29px;
+    margin: 9px 350px 0;
+	color: white;
+	position: relative;
+	left: -50px;
+}
+.fuwuzhongxin_logo{
+	background: url(../img/服务中心.png) no-repeat;
+	width: 106px;
+    height: 33px;
+    display: inline-block;
+    margin: 9px;
+	position: relative;
+	left: -550px;
+}
+.zhong_buy_sale{
+	position: absolute;
+    margin-left: -180px;
+    top: 65%;
+    left: 50%;
+}
+.buy{
+	background-position: 0 0;
+	display: inline-block;
+	background-image: url(../img/买卖.png);
+	width: 178px;
+	height: 44px;
+}
+.sale{
+    background-position: -178px 0;
+	display: inline-block;
+    background-image: url(../img/买卖.png);
+    width: 178px;
+    height: 44px;
+}
+
