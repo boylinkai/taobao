@@ -1,0 +1,296 @@
+html{
+    font-size: 100px;
+    width: 375px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    background-color: #F4F4F4;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+@font-face{
+    font-family: 'iconfont';
+    src: url('iconfont.eot');
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+        url('iconfont.woff2') format('woff2'),
+        url('iconfont.woff') format('woff'),
+        url('iconfont.ttf') format('truetype'),
+        url('iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#head{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: rgb(255, 133, 42);
+}
+#head .head_index{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 9px 6px 42px ;
+    background-image: url(../images/tao.png);
+    background-repeat: no-repeat;
+    background-size: 27px 20px;
+    background-position: 9px center; 
+}
+#head .head_index a{
+    font-size: 0;
+    display: block;
+    background-color: rgb(255, 78, 34);
+    border-radius: 4px;
+    text-align: center;
+}
+#head .head_index a span{
+    height: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    display: inline-block;
+    color: rgb(240, 224, 220);
+}
+#ad{
+    margin-top: 0.37rem;
+    height: 1.21rem;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#ad .swiper-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#ad .swiper-pagination{
+    position: absolute;
+    height: 100%;
+    top: 0.01rem;
+}
+#ad .swiper-container a{
+    display: inline-flex;
+}
+#ad .swiper-container img{
+    height: 100%;
+    width: 100%;
+}
+#ad .swiper-pagination-bullet{
+    background-color: rgb(255, 255, 255，0.1);
+}
+#ad .swiper-pagination-bullet-active{
+    background-color: #f50;
+}
+#other{
+    width: 100%;
+    position: relative;
+    margin-top: -0.12rem;
+    z-index: 3;
+}
+#other .whitetop{
+    background-image:url(../images/whitetop.png);
+    height: 0.1rem;
+    width: 100%;
+    background-size: 100%;
+    background-position: center center;
+    background-size: 100%;
+}
+#other .partner{
+    display: flex;
+    flex-direction: row;
+    height: 1.56rem;
+    width: 100%;
+    overflow-x: auto;
+    background: rgb(255, 255, 255);
+}
+#other .partner div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 0.11rem;
+}
+#other .partner a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 0.67rem;
+    width: 0.61rem;
+    margin-top: 0.03rem;
+}
+#other .partner img{
+    height: 0.48rem;
+    width: 0.61rem;
+}
+#other .partner p{
+    font-size: 0.11rem;
+    line-height: 0.15rem;
+    color: rgb(102, 102, 102);
+    margin-top: 0.04rem;
+}
+#foot{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    box-sizing: border-box;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #FFF;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #f8f8f8;
+    align-items: center;
+    padding: 0 0.2rem;
+    padding-top: 0.02rem;
+    justify-content: space-between;
+}
+#foot .tab{
+    display:inline-flex;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    color: #5d656b;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction:column;
+}
+#foot .iconfont{
+    font-size: 0.22rem;
+    height: 0.22rem;
+    width: 0.22rem;
+    line-height: 0.22rem;
+    color: #5D656B;
+}
+#foot span p{
+    font-size: 0.12rem;
+    margin: 0;
+    padding: 0;
+}
+#main{
+    margin-top: 0.1rem;
+    position: relative;
+}
+#main .top{
+    display: flex;
+    overflow: hidden;
+    margin-left: 0.09rem;
+    margin-right: 0.09rem;
+    margin-bottom: 0.42rem;
+    width: 3.57rem;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #FFF;
+    box-sizing: border-box;
+}
+#main .top .line{
+    height: 3.63rem;
+    width: 0.01rem;
+    background-color: #F4F4F4;
+    margin-left: 0.1rem;
+}
+#main .top .left{
+    margin-left: 0.07rem;
+    width: 1.875rem;
+    font-size: 0.12rem;
+    
+}
+#main .top  h3{
+    font-size: 0.16rem;
+    margin-top: 0.09rem;
+    margin-bottom: 0;
+}
+#main .top img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 0.02rem;
+}
+#main .top .part{
+    background-color: #FDF5F2;
+    display: inline-flex;
+    margin-left: 0.02rem;
+    padding: 0 0.12rem;
+}
+#main .top .out{
+    display: flex;
+    flex-direction: row;
+    flex-flow:nowrap;
+    justify-content: space-around;
+}
+#main .top .right{
+    margin-left: 0.07rem;
+    width: 1.875rem;
+    font-size: 0.12rem;
+}
+#main .bottom{
+    position: absolute;
+    display: flex;
+    margin: 0 0.09rem;
+    width: 100%;
+    /* height: 0.4rem; */
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    top: 3.69rem;
+    left: 0;
+    flex-direction: row;
+    padding: 0.2rem 0;
+}
+#main .bottom h3{
+    font-size: 0.16rem;
+    margin: 0;
+    color: #252020;
+    padding: 0 0.08rem;
+}
+#main .bottom .title{
+    font-size: 0.12rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    color: #f50;
+    background-color: #feefec;
+    border-radius: 0.04rem;
+    padding: 0 0.06rem;
+}
+#main .bottom .content{
+    font-size: 0.12rem;
+    line-height: 0.2rem;
+    margin-left: 0.05rem;
+    overflow: hidden;
+    width: 1.76rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#recommend{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#recommend .index{
+    width: 100%;
+    margin-bottom: 0.42rem;
+    margin-top: 0.18rem;
+}
+#recommend .index .head{
+    padding: 0.12rem 0;
+    width: 100%;
+    height: 0.23rem;
+    display: flex;
+    justify-content: center;
+}
+#recommend .index .head img{
+    width: 1.61rem;
+    height: 0.19rem;
+    display: inline-flex;
+}
+#recommend .index .main .item{
+    
+}
