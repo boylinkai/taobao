@@ -1,0 +1,169 @@
+html{
+	font-size:100px;
+}
+*{
+	margin:0;
+	padding:0;
+}
+.all{
+	padding-bottom: 0.4rem;
+}
+.big{
+	position: relative;
+}
+.big_per{
+	height: 1.9391rem;
+	background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+}
+.photo{
+	background-color: black;
+	width: 0.9408rem;
+	height: 0.9408rem;
+	position: absolute;
+	left: 0.3456rem;
+	top: 0.65rem;
+	border-radius: 0.48rem;
+	background-image: url(../img/IMG_3647.jpg);
+	background-size: contain;
+}
+.name{
+    font-size: 0.384rem;
+	color: #ffffff;
+	position: absolute;
+	left: 1.53rem;
+	top:0.60rem;
+}
+.pic{
+	position: absolute;
+	right: 0.38rem;
+}
+.big_mess{
+	height: 1.2864rem;
+	background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+	display: flex;
+	justify-content: space-around;
+}
+.mess{
+	width: 1.7472rem;
+	height: 1.1712rem;	
+}
+.num{
+	color: #FFFFFF;
+	font-size: 0.2688rem;
+	display: flex;
+	justify-content: center;
+}
+.word{
+	color: #FFFFFF;
+	font-size: 0.2304rem;
+	display: flex;
+	justify-content: center;
+	margin-top: 0.13rem;
+}
+.form{
+	padding-top: 0.1rem;
+	background-color: #f2f2f2;
+	height: 2.4288rem;
+}
+.form_big{
+	width: 6.7392rem;
+	margin: 0 auto;
+	border-radius: 0.2304rem;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+.my{
+	width: 6.7392rem;
+	height: 0.7296rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.my>span:first-child{
+	font-size: 0.2688rem;
+	margin-left: 0.2208rem;
+	color: rgb(51, 51, 51);
+	font-weight: bold;
+}
+.my>span:last-child{
+	font-size: 0.2304rem;
+	margin-right: 0.2208rem;
+	color: rgb(153, 153, 153);
+}
+.line{
+	height: 0.011rem;
+	background-color: #EEEEE7;
+}		
+.logo{
+	    width: 6.7392rem;
+	    height: 1.4592rem;
+		display: flex;
+}
+.logo div{
+	width: 1.3823rem;
+	height: 1.4591rem;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.logo img{
+	margin-top: 0.2rem;
+	width: 0.6rem;
+}
+.logo span{
+	font-size: 0.2304rem;
+	color: #666666;
+}
+.tool{
+	height: 4.15672rem;
+	    background-color: #f2f2f2;
+}
+.tool_big{
+	height: 3.9452rem;
+	width: 6.7391rem;
+	background-color: white;
+	margin: 0 auto;
+	border-radius: 0.2304rem;
+	overflow: hidden;
+}
+.picture{
+	height: 1.4784rem;
+	display: flex; 
+	text-align: center;
+}
+.picture div{
+	width: 1.6847rem;
+	height: 1.6031rem;
+
+}
+.picture img{
+	width: 0.6144rem;;
+}
+.picture span{
+	font-size: 0.2304rem;
+	color: #666666;
+	display: block;
+	margin-top: -0.25rem;
+}
+.down{
+	width: 100%;
+	height: 0.39rem;
+	background-color: white;
+	border-top: 1px solid #e7e7e7;
+	z-index: 9;
+	display: flex;
+	justify-content: space-around;	
+	position: fixed;
+	bottom: 0;
+}
+.down div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.down span{
+	font-size: 0.12rem;
+	color: #5d656b;
+}
