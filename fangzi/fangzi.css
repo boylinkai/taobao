@@ -3,9 +3,6 @@ body{
 	color:#333;
 	margin: 0;
 }
-html{
-	font-size: 100px;
-}
 @font-face {
   font-family: 'iconfont';
   src: url('iconfont.eot');
@@ -30,24 +27,24 @@ html{
 			list-style-type:none;
 	}
 	.topbar{
-	width: 19.2rem;
-	height: 0.35rem;
+	width: 1519px;
+	height: 35px;
 }
 .topbar_dl{
 	/* position: absolute; */
 	float: left;
-	margin-left: 4rem;
-	width: 3rem;
-	height: 0.35rem;
+	margin-left: 100px;
+	width: 300px;
+	height: 35px;
 	/* overflow: hidden; */
 	/* background-color: blue;	 */
 	text-align: center;
 }
 .topbar_dl a{ 
-	line-height: 0.35rem;
-	font-size: 0.12rem;
+	line-height: 35px;
+	font-size: 12px;
 	/* color: #FF0000; */
-	padding-left: 0.1rem;
+	padding-left: 10px;
 }
 .topbar_dl_one{
 	color: red;
@@ -58,74 +55,79 @@ html{
 .topbar_nr{
 	/* position: absolute; */
 	float: left;
-	margin-right:2rem;
-	width: 8rem;
-	height: 0.35rme;
+	margin-right:200px;
+	width: 800px;
+	height: 35px;
 	/* background-color: #0000FF; */
 	text-align: center;
 }
 .topbar_nr_ul{
-	font-size: 0.12rem;
-	line-height: 0.1rem;
+	font-size: 12px;
+	line-height: 10px;
 }
 .topbar_nr_ul_span{
-	margin-left: 0.1rem;
+	margin-left: 10px;
 	color: #424242;
 }
 .topbar_nr_ul li{
-	padding-left: 0.2rem;
+	padding-left: 20px;
 	display: inline;
 }
 .topbar_nr_ul li a{
-	font-size: 0.12rem;
+	font-size: 12px;
 }
 .topbar_nr_ul li a:hover{
 	color: red;
 }
 .one{
-	width: 19.2rem;
-	height: 4.28rem;
+	width: 1519px;
+	height: 333px;
+}
+.one img{
+	width: 100%;
 }
 .two{
 	position: relative;
-	width: 19.2rem;
-	height: 33rem;
+	width: 1519px;
+	height: 3300px;
 	background-color: blue;
 }
 .two_top{
-	margin-left: 7rem;
-	width: 5rem;
-	height: 1remx;
+	/* margin-left: 300px; */s
+	width: 500px;
+	height: 100px;
 }
 .two_top_1{
 	position: absolute;
-	top: 0.2rem;
-	padding-left: 0.5rem;
-	font-size: 0.4rem;
-	color: white;
+	top: 20px;
+	left: 500px;
+	font-size:40px;
 	font-weight: bold;
+}
+.two_top_1 a{
+	color: white;
 }
 .two_body{
 	position:relative;
-	left: 4rem;
-	width: 11.2rem;
-	height: 19.5rem;
+	left: 200px;
+	width: 1120px;
+	height: 1950px;
 	/* background-color: #FF0000; */
 }
 .two_body ul{
 	margin-top: 0;
-	width: 11rem;
-	height: 19.5rem;
+	width: 1100px;
+	height: 1950px;
 	/* background-color: yellow; */
 }
 .two_body ul li{
 	float: left;
 	left: 0;
-	width: 2rem;
-	height:2.8rem;
+	width: 200px;
+	height:280px;
 	background-color: white;
-	margin-left: 0.1rem;
-	margin-top:0.1rem;
+	margin-left: 10px;
+	margin-top: 10px;
 	display: inline-block;
 }
 .qian{
@@ -133,28 +135,28 @@ html{
 }
 .two_body_div0{
 	position: relative;
-	width: 2rem;
-	height: 0.26rem;
+	width: 200px;
+	height: 26px;
 	/* background-color:; */
 }
 .two_body_div1{
-	top: 0.02rem;
-	left: 0.1rem;
-	width: 0.8rem;
-	height: 0.2rem;
-	border-radius:0.25rem;
+	top: 2px;
+	left: 10px;
+	width: 80px;
+	height: 20px;
+	border-radius:25px;
 	text-align: center;
 	border: 1px solid red;
 	color: red;
 }
 .two_body_div2{
 	position: absolute;
-	top: 0.02rem;
-	left:1rem;
-	width: 0.8rem;
-	height: 0.2rem;
+	top: 2px;
+	left:100px;
+	width: 80px;
+	height: 20px;
 	border: 1px solid red;
-	border-radius:0.25rem;
+	border-radius:25px;
 	text-align: center;
 	background-color: #FF0000;
 }
@@ -163,50 +165,50 @@ html{
 }
 .bottom{
 	position:relative;
-	width: 19.2rem;
-	height: 2rem;
+	width: 1519px;
+	height: 200px;
 	background-color: white;
 }
 .bottom_div{
 	position: absolute;
-	left: 3.6rem;
-	width: 12rem;
-	height: 2rem;
+	left: 180px;
+	width: 1200px;
+	height: 200px;
 }
 .bottom_ul{
-	width: 11.5rem;
-	height: 0.8rem;
+	width: 1150px;
+	height: 80px;
 	border: 1px solid #778899;
 	border-left: none;
 	border-right: none ;
 }
 .bottom_ul li{
 	    width:auto;
-		height: 0.4rem;
+		height: 40px;
 		display: inline-block;
-		line-height: 0.1rem;
+		line-height: 10px;
 }
 .bottom_ul li a{
 	
-	font-size: 0.14rem;
+	font-size: 14px;
 	color: #778899;
 }
 .bottom_ul li a:hover{
 	color: red;
 }
 .bottom_ul2{
-	width: 11.5rem;
-	height: 0.8rem;
+	width: 1150px;
+	height: 80px;
 }
 .bottom_ul2 li{
 	    width:auto;
-		height: 0.4rem;
+		height: 40px;
 		display: inline-block;
-		line-height: 0.1rem;
+		line-height: 10px;
 }
 .bottom_ul2 li a{
 	
-	font-size: 0.14rem;
+	font-size: 14px;
 	color: #778899;
 }
 .bottom_ul2 li a:hover{
