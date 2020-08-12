@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="number" id="first"/>
+		+
+		<input type="number" id="two"/>
+		<input type="button" onclick="sum()" value="求和" />
+		<h1></h1>
+		<script>
+			function sum(){
+				let first = parseFloat(document.getElementById("first").value)  
+				let two = parseFloat(document.getElementById("two").value)
+				let sum = isNaN(first) || isNaN(two) ? "输入错误 请重新输入": first+two;
+				document.getElementsByTagName("h1").item(0).innerHTML = sum;
+			}
+		</script>
+	</body>
+</html>
